@@ -105,10 +105,9 @@ class OrdersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/orders'.replace('{format}', 'json')
         path_params = {}
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -123,9 +122,9 @@ class OrdersApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'POST',
+        return self.api_client.call_api('/orders', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -208,12 +207,11 @@ class OrdersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/orders/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -222,9 +220,9 @@ class OrdersApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'DELETE',
+        return self.api_client.call_api('/orders/{id}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -307,12 +305,11 @@ class OrdersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/jobs/{id}/result'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -325,9 +322,9 @@ class OrdersApi(object):
             select_header_accept(['text/plain'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/jobs/{id}/result', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -410,12 +407,11 @@ class OrdersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/jobs/{id}/status'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -428,9 +424,9 @@ class OrdersApi(object):
             select_header_accept(['text/plain'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/jobs/{id}/status', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -513,12 +509,11 @@ class OrdersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/orders/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -531,9 +526,9 @@ class OrdersApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/orders/{id}', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -610,10 +605,9 @@ class OrdersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/orders'.replace('{format}', 'json')
         path_params = {}
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -626,9 +620,9 @@ class OrdersApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/orders', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -711,12 +705,11 @@ class OrdersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/orders/{id}/submit'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -729,9 +722,9 @@ class OrdersApi(object):
             select_header_accept(['text/plain'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'POST',
+        return self.api_client.call_api('/orders/{id}/submit', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -816,12 +809,11 @@ class OrdersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/orders/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -836,9 +828,9 @@ class OrdersApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'PUT',
+        return self.api_client.call_api('/orders/{id}', 'PUT',
                                         path_params,
                                         query_params,
                                         header_params,

@@ -105,10 +105,9 @@ class FoldersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/folders'.replace('{format}', 'json')
         path_params = {}
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -123,9 +122,9 @@ class FoldersApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'POST',
+        return self.api_client.call_api('/folders', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -208,12 +207,11 @@ class FoldersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/folders/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -222,9 +220,9 @@ class FoldersApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'DELETE',
+        return self.api_client.call_api('/folders/{id}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -307,12 +305,11 @@ class FoldersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/folders/{id}/sources'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -321,9 +318,9 @@ class FoldersApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'DELETE',
+        return self.api_client.call_api('/folders/{id}/sources', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -406,12 +403,11 @@ class FoldersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/folders/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -424,9 +420,9 @@ class FoldersApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/folders/{id}', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -509,12 +505,11 @@ class FoldersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/folders/{id}/sources'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -527,9 +522,9 @@ class FoldersApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/folders/{id}/sources', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -606,10 +601,9 @@ class FoldersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/folders'.replace('{format}', 'json')
         path_params = {}
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -622,9 +616,9 @@ class FoldersApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/folders', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -709,12 +703,11 @@ class FoldersApi(object):
 
         collection_formats = {}
 
-        resource_path = '/folders/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -729,9 +722,9 @@ class FoldersApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'PUT',
+        return self.api_client.call_api('/folders/{id}', 'PUT',
                                         path_params,
                                         query_params,
                                         header_params,

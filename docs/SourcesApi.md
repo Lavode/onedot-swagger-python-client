@@ -22,20 +22,20 @@ Creates the specified Source.<p>Sources are either uploaded files or a reference
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.SourcesApi()
@@ -61,7 +61,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 
@@ -79,20 +79,20 @@ Deletes the specified Source.
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.SourcesApi()
@@ -117,7 +117,7 @@ void (empty response body)
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 
@@ -135,20 +135,20 @@ Initiates a file download and returns the URL where to download the file from.<p
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.SourcesApi()
@@ -174,7 +174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 
@@ -192,20 +192,20 @@ Initiates a file upload and returns the URL where to upload the file to.<p>Calli
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.SourcesApi()
@@ -239,7 +239,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 
@@ -257,20 +257,20 @@ Retrieves the specified Source.
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.SourcesApi()
@@ -296,7 +296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 
@@ -314,20 +314,20 @@ Retrieves all Sources stored in the Data Inventory.
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.SourcesApi()
@@ -349,7 +349,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 
@@ -367,20 +367,20 @@ Updates the specified Source.
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.SourcesApi()
@@ -407,7 +407,7 @@ void (empty response body)
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 

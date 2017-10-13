@@ -108,12 +108,11 @@ class RecipesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/recipes/{id}/instructions'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -126,9 +125,9 @@ class RecipesApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/recipes/{id}/instructions', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -211,12 +210,11 @@ class RecipesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/recipes/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -229,9 +227,9 @@ class RecipesApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/recipes/{id}', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -308,10 +306,9 @@ class RecipesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/recipes'.replace('{format}', 'json')
         path_params = {}
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -324,9 +321,9 @@ class RecipesApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/recipes', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -411,12 +408,11 @@ class RecipesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/recipes/{id}/instructions'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -431,9 +427,9 @@ class RecipesApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'PUT',
+        return self.api_client.call_api('/recipes/{id}/instructions', 'PUT',
                                         path_params,
                                         query_params,
                                         header_params,

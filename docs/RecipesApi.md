@@ -19,20 +19,20 @@ Retrieves the instructions of the specified Recipe.
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.RecipesApi()
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 
@@ -76,20 +76,20 @@ Retrieves the specified Recipe.
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.RecipesApi()
@@ -115,7 +115,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 
@@ -133,20 +133,20 @@ Retrieves all available Recipes.
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.RecipesApi()
@@ -168,7 +168,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 
@@ -186,20 +186,20 @@ Updates the instructions of the specified Recipe.
 
 ### Example 
 ```python
-from __future__ import print_statement
+from __future__ import print_function
 import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: Using URL Query Parameter
-swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 # Configure API key authorization: Using HTTP Header
 swagger_client.configuration.api_key['X-API-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # swagger_client.configuration.api_key_prefix['X-API-Key'] = 'Bearer'
+# Configure API key authorization: Using URL Query Parameter
+swagger_client.configuration.api_key['apikey'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['apikey'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.RecipesApi()
@@ -226,7 +226,7 @@ void (empty response body)
 
 ### Authorization
 
-[Using URL Query Parameter](../README.md#Using URL Query Parameter), [Using HTTP Header](../README.md#Using HTTP Header)
+[Using HTTP Header](../README.md#Using HTTP Header), [Using URL Query Parameter](../README.md#Using URL Query Parameter)
 
 ### HTTP request headers
 

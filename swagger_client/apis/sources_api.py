@@ -105,10 +105,9 @@ class SourcesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/sources'.replace('{format}', 'json')
         path_params = {}
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -123,9 +122,9 @@ class SourcesApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'POST',
+        return self.api_client.call_api('/sources', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -208,12 +207,11 @@ class SourcesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/sources/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -222,9 +220,9 @@ class SourcesApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'DELETE',
+        return self.api_client.call_api('/sources/{id}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -307,12 +305,11 @@ class SourcesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/sources/{id}/download'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -325,9 +322,9 @@ class SourcesApi(object):
             select_header_accept(['text/plain'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/sources/{id}/download', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -418,20 +415,19 @@ class SourcesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/sources/upload'.replace('{format}', 'json')
         path_params = {}
 
-        query_params = {}
+        query_params = []
         if 'name' in params:
-            query_params['name'] = params['name']
+            query_params.append(('name', params['name']))
         if 'source' in params:
-            query_params['source'] = params['source']
+            query_params.append(('source', params['source']))
         if 'folder' in params:
-            query_params['folder'] = params['folder']
+            query_params.append(('folder', params['folder']))
         if 'content_type' in params:
-            query_params['contentType'] = params['content_type']
+            query_params.append(('contentType', params['content_type']))
         if 'encoding' in params:
-            query_params['encoding'] = params['encoding']
+            query_params.append(('encoding', params['encoding']))
 
         header_params = {}
 
@@ -444,9 +440,9 @@ class SourcesApi(object):
             select_header_accept(['text/plain'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'PUT',
+        return self.api_client.call_api('/sources/upload', 'PUT',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -529,12 +525,11 @@ class SourcesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/sources/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -547,9 +542,9 @@ class SourcesApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/sources/{id}', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -626,10 +621,9 @@ class SourcesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/sources'.replace('{format}', 'json')
         path_params = {}
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -642,9 +636,9 @@ class SourcesApi(object):
             select_header_accept(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'GET',
+        return self.api_client.call_api('/sources', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -729,12 +723,11 @@ class SourcesApi(object):
 
         collection_formats = {}
 
-        resource_path = '/sources/{id}'.replace('{format}', 'json')
         path_params = {}
         if 'id' in params:
             path_params['id'] = params['id']
 
-        query_params = {}
+        query_params = []
 
         header_params = {}
 
@@ -749,9 +742,9 @@ class SourcesApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = ['Using URL Query Parameter', 'Using HTTP Header']
+        auth_settings = ['Using HTTP Header', 'Using URL Query Parameter']
 
-        return self.api_client.call_api(resource_path, 'PUT',
+        return self.api_client.call_api('/sources/{id}', 'PUT',
                                         path_params,
                                         query_params,
                                         header_params,
